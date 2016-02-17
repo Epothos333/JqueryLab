@@ -1,0 +1,45 @@
+.bigGreenWords {
+  position: relative;
+  top: 400px;
+  transform: rotate(-45deg);
+}
+header {
+  background-color: #ffa500;
+}
+.hideBox {
+  background-color: #008000;
+  display: none;
+  color: #fff;
+}
+.navItem {
+  list-style: none;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  background-color: Gray;
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  position: relative;
+}
+p {
+  display: none;
+}
+.navItem a {
+  text-decoration: none;
+  position: relative;
+  top: 12px;
+  color: #000;
+  border: 2px solid #000;
+  padding: 10px;
+  position: relative;
+}
+ul {
+  text-align: center;
+  margin: auto;
+}
+.navItem a:active,
+.navItem a:visited {
+  text-decoration: none;
+  color: #000;
+}
